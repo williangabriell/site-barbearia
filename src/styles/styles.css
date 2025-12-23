@@ -6,10 +6,6 @@
     box-sizing: border-box;
 }
 
-body{
-    background-color: #fff9ea;
-}
-
 playfair-display-uniquifier {
   font-family: "Playfair Display", serif;
   font-optical-sizing: auto;
@@ -84,8 +80,9 @@ playfair-display-uniquifier {
     align-items: center;
     justify-content: center;
     background-color: #C69C55;
+    color: #F2E8D5;
     border-radius: 12px;
-    padding: 10px 14px;
+    padding: 12px 36px;
     font-weight: 600;
     box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.1);
     cursor: pointer;
