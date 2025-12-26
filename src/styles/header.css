@@ -1,39 +1,44 @@
-header{
+header {
     width: 100%;
-    padding: 28px 8%;
-    background-color: #1A1A1A;
+    padding: 22px 8%;
+    background-color: rgba(26, 26, 26, 0.7);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 3;
 }
 
-#navbar{
+#navbar {
     font-family: "Lato", sans-serif;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
+
 }
 
-#nav_logo {
+#nav-logo {
     font-family: "Playfair Display", serif;
-    font-size: 24px;
+    font-size: 40px;
     color: #F2E8D5;
 }
 
-#nav_list {
+#nav-list {
     font-family: "Lato", sans-serif;
     list-style: none;
     display: flex;
     gap: 48px;
 }
 
-.nav-item a{
+.nav-item a {
     text-decoration: none;
     color: #F2E8D5;
     font-weight: 600;
 }
 
 .nav-item.active a {
-    color:#C69C55;
+    color: #C69C55;
     border-bottom: 3px solid #C69C55;
 }
 
@@ -47,6 +52,7 @@ header{
 }
 
 @media screen and (max-width: 1170px) {
+
     #nav-list,
     #navbar .btn-default {
         display: none;

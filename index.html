@@ -10,16 +10,23 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="src/styles/styles.css">
-    <link rel="stylesheet" href="src/styles/header.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="src/styles/styles.css" />
+    <link rel="stylesheet" href="src/styles/header.css" />
+    <link rel="stylesheet" href="/src/styles/home.css" />
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
     <title>Barbearia</title>
   </head>
   <body>
     <header>
       <nav id="navbar">
-        <p id="nav_logo">BARBER</p>
-        <ul id="nav_list">
+        <p id="nav-logo">BARBER</p>
+        <ul id="nav-list">
           <li class="nav-item active">
             <a href="#home">Início</a>
           </li>
@@ -34,9 +41,7 @@
           </li>
         </ul>
 
-        <button class="btn-default">
-            AGENDAR
-        </button>
+        <button class="btn-default">AGENDAR</button>
 
         <button id="mobile-btn">
           <i class="fa-solid fa-bars"></i>
@@ -59,45 +64,62 @@
           </li>
         </ul>
 
-        <button class="btn-default">
-            AGENDAR
-        </button>
+        <button class="btn-default">AGENDAR</button>
       </div>
     </header>
 
     <main id="content">
-        <section id="home">
-            <div class="shape"></div>
-            <div id="cta">
-                <h1 class="title">ESTILO & TRADIÇÃO</h1>
+      <section id="home">
+        <div id="cta">
+          <h1 class="title">ESTILO & TRADIÇÃO</h1>
 
-                <P class="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. In sequi nobis laborum consequatur eligendi optio ea. Fugit eveniet ea magni dolor porro consequuntur, pariatur omnis odit inventore iste voluptate iusto.</P>
+          <p class="description">CABELO. BARBA. ATITUDE!</p>
 
-                <div id="cta-buttons">
-                    <a href="#" class="btn-default">
-                        SAIBA MAIS
-                    </a>                    
-                </div>
+          <div id="cta-button">
+            <a href="#" class="btn-default"> SAIBA MAIS </a>
+          </div>
 
-                <div class="social-media-buttons">
-                  <a href="">
+          <!-- <div class="social-media-buttons">
+                  <a href="#">
                     <i class="fa-brands fa-whatsapp"></i>
                   </a>   
                   
-                  <a href="">
+                  <a href="#">
                     <i class="fa-brands fa-instagram"></i>
                   </a> 
 
-                  <a href="">
+                  <a href="#">
                     <i class="fa-brands fa-facebook"></i>
                   </a> 
-                </div>
-            </div>
+                </div> -->
+        </div>
 
-            <div id="banner">
-                <img src="src/images/hero.jpg" alt="">
-            </div>
-        </section>
+        <div id="banner">
+          <img src="src/images/hero.jpg" alt="" />
+        </div>
+      </section>
+
+      <section id="about">
+        <div class="section-title">
+          <h2 >SOBRE NÓS</h2>
+          <h3>O MELHOR PARA O HOMEM MORDERNO</h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga,
+            sapiente ut in quia pariatur soluta cum pariatur.
+          </p>
+          <button class="btn-default">
+            LEIA MAIS
+          </button>
+        </div>
+
+        <div class="section-services">
+          <h2>NOSSOS SERVIÇOS</h2>
+
+          
+        </div>
+
+        
+      </section>
     </main>
 
     <script src="src/javascript/scripts.js"></script>
