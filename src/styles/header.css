@@ -10,7 +10,6 @@ header {
 }
 
 #navbar {
-    font-family: "Lato", sans-serif;
     width: 100%;
     display: flex;
     align-items: center;
@@ -19,13 +18,11 @@ header {
 }
 
 #nav-logo {
-    font-family: "Playfair Display", serif;
     font-size: 40px;
     color: #F2E8D5;
 }
 
 #nav-list {
-    font-family: "Lato", sans-serif;
     list-style: none;
     display: flex;
     gap: 48px;
