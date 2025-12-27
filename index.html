@@ -8,18 +8,14 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
       integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
       crossorigin="anonymous"
-      referrerpolicy="no-referrer"/>
+      referrerpolicy="no-referrer"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
     <link rel="stylesheet" href="src/styles/styles.css" />
     <link rel="stylesheet" href="src/styles/header.css" />
     <link rel="stylesheet" href="/src/styles/home.css" />
-    <link rel="stylesheet" href="/src/styles/about.css">
-
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
-      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
+    <link rel="stylesheet" href="/src/styles/services.css" />
     <title>Barbearia</title>
   </head>
   <body>
@@ -78,20 +74,6 @@
           <div id="cta-button">
             <a href="#" class="btn-default"> SAIBA MAIS </a>
           </div>
-
-          <!-- <div class="social-media-buttons">
-                  <a href="#">
-                    <i class="fa-brands fa-whatsapp"></i>
-                  </a>   
-                  
-                  <a href="#">
-                    <i class="fa-brands fa-instagram"></i>
-                  </a> 
-
-                  <a href="#">
-                    <i class="fa-brands fa-facebook"></i>
-                  </a> 
-                </div> -->
         </div>
 
         <div id="banner">
@@ -99,27 +81,40 @@
         </div>
       </section>
 
-      <section id="about">
-        <div class="section-title">
-          <h2>SOBRE NÓS</h2>
-          <h3>O MELHOR PARA O HOMEM MORDERNO.</h3>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-          </p>
-          <button class="btn-default">
-            LEIA MAIS
-          </button>
-        </div>
+      <section id="menu"> 
+        <div class="services-title">
+          <h2>NOSSOS SERVIÇOS</h2>
+          <h3>O MELHOR PARA O HOMEM MORDERNO.</h3> 
+        </div>         
+          
+         <div id="services">
+          <div class="service">
+            <div class="service-text">
+              <h3 class="service-title">Corte de cabelo</h3>
+              <span class="service-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus distinctio laborum </span>
+            </div>
+            <img src="/src/images/estilo.png" class="service-img" alt="pessoa afeitando a barba">
+          </div>
+         </div>
 
-        <div class="section-services">
-          <h2>NOSSOS SERVIÇOS</h2>        
-          <h3> TESTE</h3>
-          <P>Lorem ipsum dolor, sit amet consectetur adipisicing e</P>  
-          <button class="btn-default">
-            LEIA MAIS
-          </button>      
-        </div>
-        
+          <div id="services">
+          <div class="service">
+            <img src="/src/images/barba.png" class="service-img" alt="pessoa afeitando a barba">
+            <div class="service-text">
+              <h3 class="service-title">Afeitar a barba</h3>
+              <span class="service-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus distinctio laborum </span>
+            </div>
+          </div>
+         </div>
+
+          <div id="services">
+          <div class="service">
+            <div class="service-text">
+              <h3 class="service-title">Corte de cabelo</h3>
+              <span class="service-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus distinctio laborum </span>
+            </div>
+            <img src="/src/images/estilo.png" class="service-img" alt="pessoa afeitando a barba">
+          </div>
       </section>
     </main>
 

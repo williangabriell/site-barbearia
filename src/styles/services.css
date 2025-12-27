@@ -1,0 +1,71 @@
+#menu{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.services-title {
+    font-family: "Playfair Display", serif;
+    font-size: 2rem;
+    color: #C69C55;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.services-title h3{
+    font-size: 1.5rem;
+}
+
+#services {
+  width: 100%;
+}
+
+.service {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  padding: 40px 0;
+}
+
+.service-text {
+  font-family: "Lato", sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.service-title {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #C69C55;
+}
+
+.service-description {
+  font-size: 1rem;
+  color: #1A1A1A;
+  line-height: 1.5;
+}
+
+.service-img {
+  max-width: 550px;
+  object-fit: cover;
+  display: block;
+}
+
+@media screen and (max-width: 1170px) {
+    .service-img{
+        display: none;
+    }
+
+    .service-text{
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+}
+

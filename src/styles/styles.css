@@ -17,6 +17,14 @@ body{
   background-color: #FCF7EF;
 }
 
+body, h1, h2, h3 {
+  font-family: "Playfair Display", serif;
+}
+
+body, p, a, li, span, input, button, textarea {
+  font-family: "Lato", sans-serif;
+}
+
 section {
   padding: 28px 8%;
 }
@@ -123,6 +131,15 @@ section {
 
 .social-media-buttons a:hover{
   box-shadow: 0px 0px 12px 8px rgba(0, 0, 0, 0.1);
+}
+
+.section-title{
+  color: #C69C55;
+  font-size: 2.5rem;
+}
+
+.section-subtitle{
+  font-size: 1.5rem;
 }
 
 
