@@ -14,7 +14,10 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
 
+#navbar a {
+    text-decoration: none;
 }
 
 #nav-logo {
@@ -45,7 +48,10 @@ header {
 
 #mobile-menu {
     display: none;
-    font-family: "Lato", sans-serif;
+}
+
+#mobile-menu a {
+    text-decoration: none;
 }
 
 @media screen and (max-width: 1170px) {
