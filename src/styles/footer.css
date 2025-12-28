@@ -5,7 +5,7 @@
     padding: 40px 0;
 }
 
-#footer-logo {
+.footer-logo {
     font-size: 40px;
     color: #C69C55;
 }
@@ -40,8 +40,18 @@
     color: #837C78;
 }
 
-.map-box{
-  
-    
-    
+@media screen and (max-width: 1170px){
+    #footer{
+        flex-direction: column;
+    }
+
+    .footer-logo {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.map-box iframe {
+    width: 300px;
+    height: 200px;
+  }
 }
