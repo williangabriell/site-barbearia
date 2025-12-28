@@ -1,10 +1,10 @@
 #gallery {
-    background-color: #3A2C27;
+    background-color: var(--backgroun2-color);
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 40px;
-    
+
 }
 
 .gallery-images {
@@ -15,11 +15,10 @@
     justify-content: center;
 }
 
-@media screen and (max-width: 1170px){
-    .section-title{
-       font-size: 2rem;
-       display: flex;
-       text-align: center;
-       justify-content: center;
+@media screen and (max-width: 1170px) {
+    .section-title {
+        display: flex;
+        text-align: center;
+        justify-content: center;
     }
 }

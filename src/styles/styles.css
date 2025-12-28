@@ -1,11 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Playfair Display", serif;
-}
+@import url('header.css');
+@import url('home.css');
+@import url('services.css');
+@import url('gallery.css');
+@import url('scheduling.css');
+@import url('footer.css');
 
 playfair-display-uniquifier {
   font-family: "Playfair Display", serif;
@@ -14,31 +13,46 @@ playfair-display-uniquifier {
   font-style: normal;
 }
 
-body{
-  background-color: #FCF7EF;
+:root {
+  --primary-color: #FCF7EF;
+  --secondary-color: #C69C55;
+  --accent-color: #b5884e;
+  --text-color: #1A1A1A;
+  --backgroun2-color: #3A2C27;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Playfair Display", serif;
+}
+
+body {
+  background-color: var(--primary-color);
 }
 
 section {
   padding: 28px 8%;
 }
 
-.btn-default{
-    border: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #C69C55;
-    color: #FCF7EF;
-    border-radius: 12px;
-    padding: 12px 36px;
-    font-weight: 600;
-    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.1);
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+.btn-default {
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  border-radius: 12px;
+  padding: 12px 36px;
+  font-weight: 600;
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
-.btn-default:hover{
-    background-color: #b5884e;
+.btn-default:hover {
+  background-color: var(--accent-color);
 }
 
 .social-media-buttons {
@@ -56,22 +70,20 @@ section {
   font-size: 1.25rem;
   border-radius: 10px;
   text-decoration: none;
-  color: #b5884e;
+  color: var(--accent-color);
   box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
   transition: box-shadow 0.3s ease;
 }
 
-.social-media-buttons a:hover{
+.social-media-buttons a:hover {
   box-shadow: 0px 0px 12px 8px rgba(0, 0, 0, 0.1);
 }
 
-.section-title{
-  color: #C69C55;
+.section-title {
+  color: var(--secondary-color);
   font-size: 2.5rem;
 }
 
-.section-subtitle{
+.section-subtitle {
   font-size: 1.5rem;
 }
-
-
