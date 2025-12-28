@@ -16,10 +16,6 @@ header {
     justify-content: space-between;
 }
 
-#navbar a {
-    text-decoration: none;
-}
-
 #nav-logo {
     font-size: 40px;
     color: #F2E8D5;
@@ -48,10 +44,6 @@ header {
 
 #mobile-menu {
     display: none;
-}
-
-#mobile-menu a {
-    text-decoration: none;
 }
 
 @media screen and (max-width: 1170px) {

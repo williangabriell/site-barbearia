@@ -56,23 +56,25 @@
 }
 
 @media screen and (max-width: 1170px) {
-  .service-img {
-    display: none;
-  }
 
-  .service-text {
+  .service {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+  }
+  .service-text {
     align-items: center;
-    text-align: center;
+    
+  
+  }
+  .service-img {    
+    max-width: 150px;
   }
 }
 
 @media screen and (max-width: 1100px) {
   .service-text {
-    display: flex;
-    align-items: center;
-    text-align: center;
-    flex-direction: column;
-    width: 100%;
+    
   }
 }
